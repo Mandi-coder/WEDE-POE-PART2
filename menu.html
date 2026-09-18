@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Sne's Gourmet Table</title>
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html" class="logo-link">
+                <span class="brand-name">Sne's Gourmet Table</span>
+                <span class="tagline">CATERING EXCELLENCE</span>
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="menu.html" class="active-nav">Menu</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="contact.html" class="btn-consultation">Book a consultation</a>
+    </header>
+
+    <!-- Menu Section -->
+    <main class="menu-section">
+        <header class="menu-header">
+            <p class="menu-sub">OUR SELECTION</p>
+            <h2 class="menu-title">Catering Excellence Menus</h2>
+            <!-- Filter Tabs linked to script.js -->
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-category="starters">Starters</button>
+                <button class="tab-btn" data-category="mains">Mains</button>
+                <button class="tab-btn" data-category="desserts">Desserts</button>
+            </div>
+        </header>
+
+        <!-- Starters Category Wrapper -->
+        <div id="starters" class="menu-category-group active-category">
+            <div class="menu-grid">
+                <article class="menu-item-card">
+                    <h4>Seared Duck Breast</h4>
+                    <p>Served with wild fig reduction and crisp seasonal micro greens.</p>
+                </article>
+                <article class="menu-item-card">
+                    <h4>Rooibos Smoked Salmon</h4>
+                    <p>Paired smoothly with whipped avocado mousse and pickled cucumber ribbons.</p>
+                </article>
+            </div>
+        </div>
+
+        <!-- Mains Category Wrapper -->
+        <div id="mains" class="menu-category-group">
+            <div class="menu-grid">
+                <article class="menu-item-card">
+                    <h4>Karoo Lamb Cutlets</h4>
+                    <p>Herb-crusted roasted cutlets served alongside sweet root vegetable purée.</p>
+                </article>
+                <article class="menu-item-card">
+                    <h4>Sustainably Sourced Linefish</h4>
+                    <p>Pan-fried crisp and finished beautifully with a velvety saffron broth reduction.</p>
+                </article>
+            </div>
+        </div>
+
+        <!-- Desserts Category Wrapper -->
+        <div id="desserts" class="menu-category-group">
+            <div class="menu-grid">
+                <article class="menu-item-card">
+                    <h4>Deconstructed Milk Tart</h4>
+                    <p>Cinnamon pastry shards nested gracefully in a rich vanilla bean custard base.</p>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

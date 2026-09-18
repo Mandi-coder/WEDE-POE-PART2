@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Sne's Gourmet Table</title>
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html" class="logo-link">
+                <span class="brand-name">Sne's Gourmet Table</span>
+                <span class="tagline">CATERING EXCELLENCE</span>
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html" class="active-nav">Services</a>
+            <a href="menu.html">Menu</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="contact.html" class="btn-consultation">Book a consultation</a>
+    </header>
+
+    <!-- Services Section -->
+    <main class="services-section">
+        <header class="services-header">
+            <div class="header-left">
+                <h2 class="services-title">
+                    Every occasion, <br>
+                    <span class="italic-text">perfectly catered.</span>
+                </h2>
+            </div>
+            <div class="header-right">
+                <p class="services-intro">
+                    Whether it's six guests or six hundred, we bring the same devotion to every table we set.
+                </p>
+            </div>
+        </header>
+
+        <!-- Section 3.3: Optimized Responsive Image Grids Pointing to Local .jpeg Files -->
+        <div class="services-grid">
+            
+            <!-- Card 1: Intimate Gatherings -->
+            <article class="service-card">
+                <div class="card-image-wrapper">
+                    <picture>
+                        <source srcset="./images/intimate-gathering.jpeg" media="(min-width: 769px)">
+                        <source srcset="./images/intimate-gathering.jpeg" media="(max-width: 768px)">
+                        <img src="./images/intimate-gathering.jpeg" 
+                             sizes="(max-width: 768px) 100vw, 33vw" 
+                             alt="Plated fine dining layout" 
+                             class="card-image">
+                    </picture>
+                </div>
+                <h3 class="card-title">INTIMATE GATHERINGS</h3>
+            </article>
+
+            <!-- Card 2: Professional Occasions -->
+            <article class="service-card">
+                <div class="card-image-wrapper">
+                    <picture>
+                        <source srcset="./images/professional-event.jpeg" media="(min-width: 769px)">
+                        <source srcset="./images/professional-event.jpeg" media="(max-width: 768px)">
+                        <img src="./images/professional-event.jpeg" 
+                             sizes="(max-width: 768px) 100vw, 33vw" 
+                             alt="Gourmet catering buffet setup" 
+                             class="card-image">
+                    </picture>
+                </div>
+                <h3 class="card-title">PROFESSIONAL OCCASIONS</h3>
+            </article>
+
+            <!-- Card 3: Your Special Day -->
+            <article class="service-card">
+                <div class="card-image-wrapper">
+                    <picture>
+                        <source srcset="./images/wedding-day.jpeg" media="(min-width: 769px)">
+                        <source srcset="./images/wedding-day.jpeg" media="(max-width: 768px)">
+                        <img src="./images/wedding-day.jpeg" 
+                             sizes="(max-width: 768px) 100vw, 33vw" 
+                             alt="Wedding banquet reception decor" 
+                             class="card-image">
+                    </picture>
+                </div>
+                <h3 class="card-title">YOUR SPECIAL DAY</h3>
+            </article>
+            
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Sne | Sne's Gourmet Table</title>
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html" class="logo-link">
+                <span class="brand-name">Sne's Gourmet Table</span>
+                <span class="tagline">CATERING EXCELLENCE</span>
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active-nav">About</a>
+            <a href="services.html">Services</a>
+            <a href="menu.html">Menu</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="contact.html" class="btn-consultation">Book a consultation</a>
+    </header>
+
+    <!-- About Section -->
+    <main class="about-section">
+        <!-- Section 3.3: Optimized Responsive Image Using Picture Element pointing to local file -->
+        <div class="about-image-container">
+            <picture>
+                <!-- Desktop Viewport Image Resolution Reference -->
+                <source srcset="./images/chef-cooking.jpeg" media="(min-width: 769px)">
+                <!-- Bandwidth-optimized resource layout provided for tablet/mobile viewports -->
+                <source srcset="./images/chef-cooking.jpeg" media="(max-width: 768px)">
+                <!-- Fallback local image setup matching sizes attribute layout instructions -->
+                <img src="./images/chef-cooking.jpeg" 
+                     sizes="(max-width: 768px) 100vw, 50vw" 
+                     alt="Sne Chonco cooking in the kitchen" 
+                     class="about-image">
+            </picture>
+        </div>
+        
+        <div class="about-content">
+            <p class="about-sub">ABOUT SNE</p>
+            <h2 class="about-title">
+                A passion for food <br>
+                <span class="italic-text">rooted in tradition.</span>
+            </h2>
+            <p class="about-paragraph">
+                Sne Chonco grew up watching her grandmother transform simple ingredients into feasts that gathered family from across the province. That early wonder never left her. After training at the Capsicum Culinary Studio and honing her craft in kitchens across Johannesburg and London, she founded Sne's Gourmet Table in 2016.
+            </p>
+            <p class="about-paragraph">
+                Today, the studio specializes in bespoke menus that honour South Africa's rich culinary heritage while embracing global technique. Every event is treated as its own story — told through food.
+            </p>
+            <div class="about-badges">
+                <span class="badge">Capsicum Culinary Graduate</span>
+                <span class="badge">Farm-to-Table Advocate</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

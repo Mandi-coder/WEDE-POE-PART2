@@ -1,0 +1,217 @@
+/* ========================================================
+   1. GLOBAL RESET & BASE STYLES
+   ======================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #faf7f5;
+    color: #2c1a1d;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ========================================================
+   2. NAVBAR NAVIGATION
+   ======================================================== */
+.navbar {
+    background-color: #2c1a1d; /* Premium deep burgundy */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-family: 'Playfair Display', serif;
+    color: #dfba6b; /* Luxury gold layout */
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.tagline {
+    color: #ffffff;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    margin-top: 2px;
+}
+
+.nav-links a {
+    color: #f5eae6;
+    font-size: 0.95rem;
+    margin: 0 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover, .nav-links a.active-nav {
+    color: #dfba6b;
+}
+
+.btn-consultation {
+    background-color: #dfba6b;
+    color: #2c1a1d;
+    padding: 0.7rem 1.4rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-consultation:hover {
+    background-color: #cfa859;
+}
+
+/* ========================================================
+   3. HERO AREA
+   ======================================================== */
+.hero {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    min-height: 70vh;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-sub {
+    color: #cfa859;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: #2c1a1d;
+    font-weight: 600;
+}
+
+.italic-text {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #cfa859;
+}
+
+.hero-description {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    color: #555555;
+    max-width: 520px;
+}
+
+/* ========================================================
+   4. LAYOUT SECTIONS & TAB SWITCHER STYLING
+   ======================================================== */
+.about-section, .services-section, .menu-section, .testimonials-section, .contact-section {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+/* Hide all category groups by default */
+.menu-category-group {
+    display: none;
+    margin-top: 2rem;
+}
+
+/* Display active category group */
+.menu-category-group.active-category {
+    display: block;
+}
+
+.menu-tabs {
+    margin: 2rem 0;
+}
+
+.tab-btn {
+    background-color: transparent;
+    border: 1px solid #2c1a1d;
+    color: #2c1a1d;
+    padding: 0.6rem 1.5rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: all 0.3s;
+}
+
+.tab-btn:hover, .tab-btn.active {
+    background-color: #dfba6b;
+    border-color: #dfba6b;
+    color: #2c1a1d;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.menu-item-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-left: 3px solid #dfba6b;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.menu-item-card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ========================================================
+   5. MEDIA BREAKPOINTS (Responsive Flow)
+   ======================================================== */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1.2rem;
+        padding: 1.5rem 1rem;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        text-align: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        margin: 2rem auto;
+        gap: 2rem;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+}

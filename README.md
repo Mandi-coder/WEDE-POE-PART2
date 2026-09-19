@@ -170,13 +170,16 @@ Design Features (Part 2):
 ## 10. Screenshots Evidence
 
 ### Desktop (1920px) - Multi-column Layout
-![Desktop View]
+![Desktop View]<img width="1339" height="600" alt="d8025797-4830-466c-ba96-33cfcd8ca6cd" src="https://github.com/user-attachments/assets/ad4c9362-3eda-44f9-a78e-298f0ce406d8" />
+
 
 ### Tablet (768px) - 2 Column Layout
-![Tablet View
+![Tablet View<img width="968" height="607" alt="7f3b23b7-af46-4776-b291-4b5753873d45" src="https://github.com/user-attachments/assets/c054b7f3-51c0-4bc1-8e01-fb3f30a39f79" />
+
 
 ### Mobile (375px) - Single Column Stacked
-![Mobile View]
+![Mobile View]<img width="968" height="607" alt="7f3b23b7-af46-4776-b291-4b5753873d45" src="https://github.com/user-attachments/assets/1fb50a97-3e00-4714-8412-33aa46901dac" />
+
 
 ---
 

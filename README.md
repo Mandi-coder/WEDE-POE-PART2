@@ -5,7 +5,7 @@ WEDE5020 POE Part 1 & 2 - Project Documentation
 
 Sne's Gourmet Table is a fictional premium catering brand based in Johannesburg, South Africa, created for my WEDE5020 POE. The project was developed in two phases:
 
-Part 1 (21 July - 20 August 2025): Focused on planning and building the HTML5 structure. This included creating wireframes in Figma, defining the sitemap, and coding 6 semantic HTML pages with no CSS.
+Part 1 (21 July - 20 August 2026: Focused on planning and building the HTML5 structure. This included creating wireframes in Figma, defining the sitemap, and coding 6 semantic HTML pages with no CSS.
 
 Part 2 (21 August - 18 September 2025): Focused on Designing the Visuals. This phase transformed the plain HTML structure into a visually appealing, premium, and fully responsive website using external CSS, Flexbox, Grid, and responsive design principles.
 
@@ -157,13 +157,13 @@ Design Features (Part 2):
 
 | Phase | Date Range | Key Activities & Deliverables |
 | :--- | :--- | :--- |
-| **Phase 1: Planning & HTML** | **21 July - 05 Aug 2025** | Client brief analysis, competitor research, Figma wireframes for 6 pages, sitemap planning |
-| **Phase 1: Development** | **06 Aug - 20 Aug 2025** | Coded 6 HTML pages using semantic HTML5, created navigation, built contact form structure, validated HTML, created Part 1 README, final submission for Part 1 |
-| **Phase 2: CSS Design** | **21 Aug - 05 Sep 2025** | Created `css/style.css`, implemented CSS reset, defined colour scheme and typography (Playfair Display + Poppins), styled desktop layout using Flexbox and Grid, added visual styles (shadows, hover effects) |
-| **Phase 2: Responsive** | **06 Sep - 15 Sep 2025** | Identified breakpoints (1024px, 768px, 480px), converted units to rem/em/%, implemented media queries, added srcset & sizes for responsive images, fixed layout bugs on mobile |
-| **Phase 2: Testing & Docs** | **16 Sep - 18 Sep 2025** | Tested on Chrome DevTools across all devices/browsers, took screenshots for evidence (desktop, tablet, mobile), updated README with Part 2 info, changelog, and references, pushed all changes to GitHub remote repository |
+| **Phase 1: Planning & HTML** | **21 July - 05 Aug 2026** | Client brief analysis, competitor research, Figma wireframes for 6 pages, sitemap planning |
+| **Phase 1: Development** | **06 Aug - 20 Aug 2026** | Coded 6 HTML pages using semantic HTML5, created navigation, built contact form structure, validated HTML, created Part 1 README, final submission for Part 1 |
+| **Phase 2: CSS Design** | **21 Aug - 05 Sep 2026** | Created `css/style.css`, implemented CSS reset, defined colour scheme and typography (Playfair Display + Poppins), styled desktop layout using Flexbox and Grid, added visual styles (shadows, hover effects) |
+| **Phase 2: Responsive** | **06 Sep - 15 Sep 2026** | Identified breakpoints (1024px, 768px, 480px), converted units to rem/em/%, implemented media queries, added srcset & sizes for responsive images, fixed layout bugs on mobile |
+| **Phase 2: Testing & Docs** | **16 Sep - 18 Sep 2026** | Tested on Chrome DevTools across all devices/browsers, took screenshots for evidence (desktop, tablet, mobile), updated README with Part 2 info, changelog, and references, pushed all changes to GitHub remote repository |
 
-**Total Development Time:** 8 Weeks (21 July - 18 September 2025)
+**Total Development Time:** 8 Weeks (21 July - 18 September 2026)
 
 ---
 
@@ -192,16 +192,16 @@ Design Features (Part 2):
 
 ## 12. Changelog
 
-### Part 2 Updates (21 Aug - 18 Sep 2025)
+### Part 2 Updates (21 Aug - 18 Sep 2026)
 | Date | Update |
 | :--- | :--- |
-| 10 Sep 2025 | Created external stylesheet and linked to all pages |
-| 11 Sep 2025 | Implemented base styles, colour palette, typography |
-| 12 Sep 2025 | Built desktop layouts with Flexbox and Grid |
-| 14 Sep 2025 | Added responsive breakpoints and media queries |
-| 15 Sep 2025 | Added srcset for responsive images |
-| 16 Sep 2025 | Fixed navigation on mobile, tested on all devices |
-| 18 Sep 2025 | Final README update and push to GitHub |
+| 10 Sep 2026 | Created external stylesheet and linked to all pages |
+| 11 Sep 2026 | Implemented base styles, colour palette, typography |
+| 12 Sep 2026 | Built desktop layouts with Flexbox and Grid |
+| 14 Sep 2026 | Added responsive breakpoints and media queries |
+| 15 Sep 2026 | Added srcset for responsive images |
+| 16 Sep 2026 | Fixed navigation on mobile, tested on all devices |
+| 18 Sep 2026 | Final README update and push to GitHub |
 
 ### Part 1 Feedback Fixes
 | Feedback | Fix Implemented |
@@ -211,31 +211,31 @@ Design Features (Part 2):
 | No meta tags | Added meta description and viewport tags |
 
 ### Part 1 History
-| 20 Aug 2025 | Completed HTML structure for 6 pages - Part 1 Submission |
-| 19 Aug 2025 | Created contact form structure |
-| 18 Aug 2025 | Designed wireframes in Figma |
+| 20 Aug 2026 | Completed HTML structure for 6 pages - Part 1 Submission |
+| 19 Aug 2026 | Created contact form structure |
+| 18 Aug 2026 | Designed wireframes in Figma |
 
 ---
 
 ## 13. References (Harvard Style - Updated for Part 2)
 
-1. Figma. 2025. Sne's Gourmet Table - Wireframe and Structure Design. Designed by Mandisa Mamane in Figma. Available at: https://www.figma.com [Accessed 20 August 2025].
+1. Figma. 2025. Sne's Gourmet Table - Wireframe and Structure Design. Designed by Mandisa Mamane in Figma. Available at: https://www.figma.com [Accessed 20 August 2026].
 
-2. Mozilla Developer Network (MDN). 2024. HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 20 August 2025].
+2. Mozilla Developer Network (MDN). 2024. HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 20 August 2026].
 
-3. W3Schools. 2024. HTML5 Semantic Elements. Available at: https://www.w3schools.com/html/html5_semantic_elements.asp [Accessed 20 August 2025].
+3. W3Schools. 2024. HTML5 Semantic Elements. Available at: https://www.w3schools.com/html/html5_semantic_elements.asp [Accessed 20 August 2026].
 
-4. Mozilla Developer Network (MDN). 2025. CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout [Accessed 10 September 2025].
+4. Mozilla Developer Network (MDN). 2025. CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout [Accessed 10 September 2026].
 
-5. Mozilla Developer Network (MDN). 2025. CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout [Accessed 10 September 2025].
+5. Mozilla Developer Network (MDN). 2025. CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout [Accessed 10 September 2026].
 
-6. Mozilla Developer Network (MDN). 2025. Responsive Images - srcset and sizes. Available at: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images [Accessed 12 September 2025].
+6. Mozilla Developer Network (MDN). 2025. Responsive Images - srcset and sizes. Available at: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images [Accessed 12 September 2026].
 
-7. W3Schools. 2025. CSS Media Queries - Responsive Design. Available at: https://www.w3schools.com/css/css_rwd_mediaqueries.asp [Accessed 12 September 2025].
+7. W3Schools. 2025. CSS Media Queries - Responsive Design. Available at: https://www.w3schools.com/css/css_rwd_mediaqueries.asp [Accessed 12 September 2026].
 
-8. Google Fonts. 2025. Playfair Display & Poppins. Available at: https://fonts.google.com [Accessed 10 September 2025].
+8. Google Fonts. 2025. Playfair Display & Poppins. Available at: https://fonts.google.com [Accessed 10 September 2026].
 
-9. The Independent Institute of Education (IIE). 2025. WEDE5020 POE Brief Part 1 & 2. [Accessed 21 July 2025].
+9. The Independent Institute of Education (IIE). 2025. WEDE5020 POE Brief Part 1 & 2. [Accessed 21 July 2026].
 
 ---
 
@@ -258,4 +258,4 @@ Design Features (Part 2):
 
 ---
 
-**© 2025 Sne's Gourmet Table - Developed by Mandisa Mamane for WEDE5020**
+**© 2026 Sne's Gourmet Table - Developed by Mandisa Mamane for WEDE5020**

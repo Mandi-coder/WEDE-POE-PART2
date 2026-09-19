@@ -178,7 +178,8 @@ Design Features (Part 2):
 
 
 ### Mobile (375px) - Single Column Stacked
-![Mobile View]<img width="968" height="607" alt="7f3b23b7-af46-4776-b291-4b5753873d45" src="https://github.com/user-attachments/assets/1fb50a97-3e00-4714-8412-33aa46901dac" />
+![Mobile View]<img width="1102" height="606" alt="b895cd42-340c-4bb5-9bfb-957ecdbac0ac" src="https://github.com/user-attachments/assets/90a359f0-db6f-497e-a937-244447abe9e4" />
+
 
 
 ---

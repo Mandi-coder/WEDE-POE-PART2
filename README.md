@@ -7,7 +7,7 @@ Sne's Gourmet Table is a fictional premium catering brand based in Johannesburg,
 
 Part 1 (21 July - 20 August 2026: Focused on planning and building the HTML5 structure. This included creating wireframes in Figma, defining the sitemap, and coding 6 semantic HTML pages with no CSS.
 
-Part 2 (21 August - 18 September 2025): Focused on Designing the Visuals. This phase transformed the plain HTML structure into a visually appealing, premium, and fully responsive website using external CSS, Flexbox, Grid, and responsive design principles.
+Part 2 (21 August - 18 September 2026): Focused on Designing the Visuals. This phase transformed the plain HTML structure into a visually appealing, premium, and fully responsive website using external CSS, Flexbox, Grid, and responsive design principles.
 
 The final website presents Sne's Gourmet Table as a luxurious, trustworthy, and modern catering service that provides bespoke food experiences for high-end events.
 
